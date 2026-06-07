@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Ant
+comment0.text=\n\ Write\ a\ description\ of\ class\ Ant\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=boolean\ hitWall()
+comment3.params=
+comment3.target=void\ food()
+comment4.params=
+comment4.target=void\ teleport()
+comment5.params=
+comment5.target=boolean\ hitEnemy()
+comment6.params=
+comment6.target=void\ youLose()
+comment7.params=
+comment7.target=void\ youWin()
+numComments=8

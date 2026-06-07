@@ -1,23 +1,26 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class enemy here.
+ * Write a description of class frog here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class enemy extends Actor
+public class frog extends Actor
 {
     /**
-     * Act - do whatever the enemy wants to do. This method is called whenever
+     * Act - do whatever the frog wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    int speed = 2;
     public void act()
     {
         move();
     }
     public void move(){
-        move(3);
-        turn(3);
+        setLocation(getX(), getY() - speed);
+                if (isTouching(walls.class)){
+                    speed = -speed;
+                }
     }
 }
